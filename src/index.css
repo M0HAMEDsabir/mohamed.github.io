@@ -1,0 +1,78 @@
+/* Global Styles - Vibrant Theme */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fafafa;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #0f172a;
+  }
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Smooth scroll offset for sections */
+section[id] {
+  scroll-margin-top: 20px;
+}
+
+/* Focus styles for accessibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #a855f7;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Selection styles */
+::selection {
+  background: rgba(168, 85, 247, 0.3);
+  color: inherit;
+}
+
+/* Smooth transitions */
+a,
+button {
+  transition: all 0.3s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-track {
+    background: #1e293b;
+  }
+}

@@ -1,21 +1,22 @@
 import './App.css'
+import profilePic from './assets/myPic.jpg'
 
 function App() {
   return (
     <div className="portfolio">
-      {/* Hero Section - Strong Value Proposition */}
       <header className="hero">
         <div className="hero-content">
-          <div className="hero-badge">🎓 Currently Pursuing IFTS Course + Seeking 360h Internship</div>
+          <img src={profilePic} alt="Mohamed Sabir" className="profile-pic" />
+          <div className="hero-badge">🎓 Currently Pursuing IFTS Course + Seeking an opportunity within a company where I can continue my professional journey and further develop my skills and career</div>
           <h1><span>Mohamed Sabir</span></h1>
           <h2>Junior Web Developer</h2>
           <p className="hero-tagline">
-            Building robust web applications with <strong>Java</strong>, <strong>Spring Boot</strong> & <strong>Angular</strong>
+            Building robust web applications with <strong>Java</strong>, <strong>Spring Boot</strong> & <strong>React</strong>
           </p>
           <p className="hero-location">📍 Bologna, Italy</p>
           <div className="hero-stats">
             <div className="stat">
-              <span className="stat-number">11</span>
+              <span className="stat-number">8</span>
               <span className="stat-label">Months Experience</span>
             </div>
             <div className="stat">
@@ -52,11 +53,36 @@ function App() {
         </div>
       </section>
 
-      {/* Experience Section - Proof of Competence */}
+      {/* Experience Section */}
       <section className="section experience" id="experience">
         <div className="container">
           <h3 className="section-title">Experience</h3>
 
+          <div className="experience-card">
+            <div className="experience-header">
+              <div className="experience-role">
+                <h4>React Developer (Intern)</h4>
+                <span className="company">Codebaker, Bologna</span>
+              </div>
+              <span className="experience-date">Apr 2026 – Jul 2026</span>
+            </div>
+            <div className="experience-body">
+              <p className="experience-summary">
+                Led the complete rewrite of the user interface for a control terminal used to manage aquarium lighting systems, migrating the codebase from Angular to React to improve code maintainability.
+              </p>
+              <ul className="experience-highlights">
+                <li>Implemented a new state management architecture in <strong>React</strong>, optimizing the terminal's response times during real-time configuration of the lamp light spectrum</li>
+                <li>Collaborated on the design and development of flexible, reactive React components, ensuring a smooth user experience</li>
+              </ul>
+              <div className="tech-stack">
+                <span className="tech-tag">React</span>
+                <span className="tech-tag">JavaScript</span>
+                <span className="tech-tag">State Management</span>
+                <span className="tech-tag">UI/UX</span>
+              </div>
+            </div>
+          </div>
+          
           <div className="experience-card featured">
             <div className="experience-header">
               <div className="experience-role">
@@ -108,7 +134,6 @@ function App() {
               <h4>Frameworks</h4>
               <div className="skill-items">
                 <span className="skill-item featured">Spring Boot</span>
-                <span className="skill-item featured">Angular</span>
                 <span className="skill-item">Hibernate/JPA</span>
                 <span className="skill-item">React</span>
               </div>

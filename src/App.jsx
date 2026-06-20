@@ -16,7 +16,7 @@ function App() {
           <p className="hero-location">📍 Bologna, Italy</p>
           <div className="hero-stats">
             <div className="stat">
-              <span className="stat-number">8</span>
+              <span className="stat-number">11</span>
               <span className="stat-label">Months Experience</span>
             </div>
             <div className="stat">
@@ -41,13 +41,16 @@ function App() {
           <h3 className="section-title">About Me</h3>
           <div className="about-content">
             <p className="about-intro">
-              I'm a <strong>junior developer currently pursuing an IFTS course in Web Application Development</strong> with Java, React, and Generative AI. This 800-hour program includes a <strong>360-hour internship</strong>, and I'm actively seeking a software house or enterprise where I can contribute and grow.
+              I'm a <strong>junior developer currently pursuing an IFTS course in Web Application Development</strong> with Java, React, and Generative AI. And I'm actively seeking a software house or enterprise where I can contribute and grow.
             </p>
             <p>
               My stack centers around <strong>Java 21</strong> and <strong>Spring Boot</strong> for backend development, paired with <strong>React</strong> for creating dynamic user interfaces. I've worked with RESTful APIs, relational databases, and Agile methodologies in a professional team environment.
             </p>
             <p>
-              During my previous 8-month internship at 3Dinformatica, I developed features for digital signature management systems used by real clients. I'm passionate about writing clean, maintainable code and solving complex problems.
+              During my <strong>8-month internship at 3Dinformatica</strong>, I developed features for digital signature management systems used by real clients, and most recently I joined <strong>Codebaker</strong> as a React Developer Intern to lead the migration of an aquarium lighting control terminal from Angular to React.
+            </p>
+            <p>
+              I'm passionate about writing clean, maintainable code and solving complex problems.
             </p>
           </div>
         </div>

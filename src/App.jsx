@@ -41,14 +41,18 @@ function App() {
           <h3 className="section-title">About Me</h3>
           <div className="about-content">
             <p className="about-intro">
-              I'm a <strong>junior developer currently pursuing an IFTS course in Web Application Development</strong> with Java, React, and Generative AI. This 800-hour program includes a <strong>360-hour internship</strong>, and I'm actively seeking a software house or enterprise where I can contribute and grow.
+              I'm a <strong>junior developer currently pursuing an IFTS course in Web Application Development</strong> with Java, React, and Generative AI. I'm actively seeking a software house or enterprise where I can contribute and grow.
             </p>
             <p>
               My stack centers around <strong>Java 21</strong> and <strong>Spring Boot</strong> for backend development, paired with <strong>React</strong> for creating dynamic user interfaces. I've worked with RESTful APIs, relational databases, and Agile methodologies in a professional team environment.
             </p>
             <p>
-              During my previous 8-month internship at 3Dinformatica, I developed features for digital signature management systems used by real clients. I'm passionate about writing clean, maintainable code and solving complex problems.
+              During my <strong>8-month internship at 3Dinformatica</strong>, I developed features for digital signature management systems used by real clients, and most recently I joined <strong>Codebaker</strong> as a React Developer Intern to lead the migration of an aquarium lighting control terminal from Angular to React.
             </p>
+            <p>
+              I'm passionate about writing clean, maintainable code and solving complex problems.
+            </p>
+
           </div>
         </div>
       </section>
@@ -299,7 +303,7 @@ function App() {
         <div className="container">
           <h3 className="section-title">Let's Connect</h3>
           <p className="contact-intro">
-            I'm actively seeking <strong>internship opportunities</strong> as a Junior Web Developer.
+            I'm actively seeking <strong>job opportunities</strong> as a Junior Web Developer.
             If you're looking for a motivated developer with real-world experience, I'd love to hear from you.
           </p>
           <div className="contact-methods">
@@ -335,7 +339,6 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <p>© {new Date().getFullYear()} Mohamed Sabir. Built with React.</p>
-        <p className="footer-note">Available for internship opportunities in Bologna, Italy.</p>
         <p className="footer-note"> Autorizzo il trattamento dei miei dati personali, ai sensi del D.lgs. 196 del 30 giugno 2003 </p>
       </footer>
     </div>

@@ -93,7 +93,7 @@ function App() {
                 <h4>Web Application Developer (Intern)</h4>
                 <span className="company">3Dinformatica, Bologna</span>
               </div>
-              <span className="experience-date">Apr 2024 – Feb 2025</span>
+              <span className="experience-date">Apr 2024 – Jul 2024</span>
             </div>
             <div className="experience-body">
               <p className="experience-summary">

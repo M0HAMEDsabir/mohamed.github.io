@@ -7,7 +7,7 @@ function App() {
       <header className="hero">
         <div className="hero-content">
           <img src={profilePic} alt="Mohamed Sabir" className="profile-pic" />
-          <div className="hero-badge">🎓 Currently Pursuing IFTS Course + Seeking an opportunity within a company where I can continue my professional journey and further develop my skills and career</div>
+          <div className="hero-badge">🎓 Just finished the IFTS course + Seeking an opportunity within a company where I can continue my professional journey and further develop my skills and career</div>
           <h1><span>Mohamed Sabir</span></h1>
           <h2>Junior Web Developer</h2>
           <p className="hero-tagline">
@@ -16,7 +16,7 @@ function App() {
           <p className="hero-location">📍 Bologna, Italy</p>
           <div className="hero-stats">
             <div className="stat">
-              <span className="stat-number">11</span>
+              <span className="stat-number">6</span>
               <span className="stat-label">Months Experience</span>
             </div>
             <div className="stat">
@@ -41,7 +41,7 @@ function App() {
           <h3 className="section-title">About Me</h3>
           <div className="about-content">
             <p className="about-intro">
-              I'm a <strong>junior developer currently pursuing an IFTS course in Web Application Development</strong> with Java, React, and Generative AI. I'm actively seeking a software house or enterprise where I can contribute and grow.
+              I'm a <strong>junior developer who has just finished the IFTS course in Web Application Development</strong> with Java, React, and Generative AI. I'm actively seeking a software house or enterprise where I can contribute and grow.
             </p>
             <p>
               My stack centers around <strong>Java 21</strong> and <strong>Spring Boot</strong> for backend development, paired with <strong>React</strong> for creating dynamic user interfaces. I've worked with RESTful APIs, relational databases, and Agile methodologies in a professional team environment.
@@ -93,7 +93,7 @@ function App() {
                 <h4>Web Application Developer (Intern)</h4>
                 <span className="company">3Dinformatica, Bologna</span>
               </div>
-              <span className="experience-date">Apr 2024 – Feb 2025</span>
+              <span className="experience-date">Apr 2024 – Jul 2024</span>
             </div>
             <div className="experience-body">
               <p className="experience-summary">

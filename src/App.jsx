@@ -16,7 +16,7 @@ function App() {
           <p className="hero-location">📍 Bologna, Italy</p>
           <div className="hero-stats">
             <div className="stat">
-              <span className="stat-number">11</span>
+              <span className="stat-number">6</span>
               <span className="stat-label">Months Experience</span>
             </div>
             <div className="stat">

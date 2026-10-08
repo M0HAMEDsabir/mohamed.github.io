@@ -175,6 +175,24 @@ function App() {
         <div className="container">
           <h3 className="section-title">Projects</h3>
           <div className="projects-grid">
+            <a href="https://github.com/M0HAMEDsabir/project-management-system" target="_blank" rel="noopener noreferrer" className="project-card">
+              <div className="project-icon">📋</div>
+              <div className="project-content">
+                <h4>Project Management System</h4>
+                <p className="project-description">
+                  Comprehensive system for tracking project milestones, task assignments, and team collaboration. Developed with a focus on scalable architecture.
+                </p>
+                <div className="project-tags">
+                  <span className="project-tag">Java</span>
+                  <span className="project-tag">Spring Boot</span>
+                  <span className="project-tag">React</span>
+                </div>
+              </div>
+              <div className="project-link">
+                <span>View on GitHub →</span>
+              </div>
+            </a>
+
             <a href="https://github.com/M0HAMEDsabir/TerminaleOspedale" target="_blank" rel="noopener noreferrer" className="project-card featured">
               <div className="project-icon">🏥</div>
               <div className="project-content">
